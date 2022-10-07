@@ -1,0 +1,3 @@
+
+   "request":
+    { "type": "City", "query": "Vaijapur, India", "language": "en", "unit": "m" }, "location": { "name": "Vaijapur", "country": "India", "region": "Maharashtra", "lat": "19.917", "lon": "74.733", "timezone_id": "Asia\/Kolkata", "localtime": "2022-10-06 15:10", "localtime_epoch": 1665069000, "utc_offset": "5.50" }, "current": { "observation_time": "09:40 AM", "temperature": 29, "weather_code": 116, "weather_icons": ["https:\/\/assets.weatherstack.com\/images\/wsymbols01_png_64\/wsymbol_0002_sunny_intervals.png"], "weather_descriptions": ["Partly cloudy"], "wind_speed": 12, "wind_degree": 325, "wind_dir": "NW", "pressure": 1005, "precip": 0, "humidity": 56, "cloudcover": 59, "feelslike": 30, "uv_index": 7, "visibility": 10, "is_day": "yes" }
