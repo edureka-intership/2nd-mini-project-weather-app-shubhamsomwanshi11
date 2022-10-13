@@ -2,7 +2,7 @@ let result = []
 
 function callApi() {
     let city = document.getElementById("city").value
-    fetch(`http://api.weatherstack.com/current?access_key=1d29d31d80cfc173eea964771a026b44&query=${city}`, { method: 'GET' })
+    fetch(`https://api.weatherstack.com/current?access_key=1d29d31d80cfc173eea964771a026b44&query=${city}`, { method: 'GET' })
     .then(response => response.json())
     .then(data =>{
         result = data;
@@ -13,7 +13,7 @@ function callApi() {
 function callAPIDefault(){
     try {
         
-        fetch(`http://api.weatherstack.com/current?access_key=1d29d31d80cfc173eea964771a026b44&query=Mumbai`, { method: 'GET' })
+        fetch(`https://api.weatherstack.com/current?access_key=1d29d31d80cfc173eea964771a026b44&query=Mumbai`, { method: 'GET' })
         .then(response => response.json())
         .then(data =>{
             result = data;
